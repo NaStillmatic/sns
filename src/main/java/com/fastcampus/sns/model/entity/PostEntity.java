@@ -1,6 +1,5 @@
 package com.fastcampus.sns.model.entity;
 
-import com.fastcampus.sns.model.UserRole;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.SQLDelete;

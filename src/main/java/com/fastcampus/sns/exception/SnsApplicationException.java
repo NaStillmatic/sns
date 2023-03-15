@@ -1,7 +1,5 @@
 package com.fastcampus.sns.exception;
 
-// TODO: implement
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
