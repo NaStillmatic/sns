@@ -2,11 +2,13 @@ package com.fastcampus.sns.controller.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-public class PostCommentsRequest {
+@NoArgsConstructor
+public class PostCommentRequest {
 
-    private String commnet;
+    private String comment;
 
 }
