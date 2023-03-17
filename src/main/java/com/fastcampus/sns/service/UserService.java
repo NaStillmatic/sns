@@ -8,6 +8,9 @@ import com.fastcampus.sns.repository.UserEntityRepository;
 import com.fastcampus.sns.util.JwtTokenUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -60,4 +63,8 @@ public class UserService {
         return token;
     }
 
+    // TODO: alarm return
+    public Page<Void> alarmList(String userName, Pageable pageable) {
+        return Page.empty();
+    }
 }
